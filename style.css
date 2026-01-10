@@ -144,3 +144,71 @@ nav {
   align-items: center;
   background-color: transparent;
 }
+
+#Box {
+  width: auto;
+  height: 450px;
+}
+
+#Box .Box-content {
+  text-align: center;
+  padding-top: 40px;
+}
+
+#Box .Box-content h1 {
+  font-size: 48px;
+  color: #001931;
+  font-weight: 600;
+}
+
+#Box .Box-content p {
+  font-size: 16px;
+  color: #627382;
+  padding-top: 16px;
+}
+
+#Box .Box-container {
+  padding-top: 50px;
+  padding-right: 120px;
+  padding-bottom: 50px;
+  padding-left: 130px;
+  /* border: 1px solid red; */
+  display: flex;
+  gap: 24px;
+  overflow: visible;
+  /* box-shadow: 0 8px 24px white */
+}
+
+#Box .Box-container .Box-container-X {
+  background-color: white;
+  height: 300px;
+  width: 322px;
+  box-shadow: 0 60px 60px rgb(163, 157, 157);
+  text-align: center;
+  border-radius: 10px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  gap: 18px;
+}
+
+#Box .Box-container .Box-container-X .png {
+  width: 60px;
+  height: 60px;
+  background-color: #f54141;
+  border-radius: 50%;
+}
+
+#Box .Box-container .Box-container-X h2 {
+  font-size: 26px;
+  color: #001931;
+}
+
+#Box .Box-container .Box-container-X p {
+  font-size: 16px;
+  color: #627382;
+}
