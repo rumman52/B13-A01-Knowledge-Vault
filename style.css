@@ -30,14 +30,22 @@ nav .menu ul li {
   color: #000000;
 }
 
-nav div .btn {
+nav #mm {
+  align-items: center;
+  padding: 24px;
+}
+
+nav #mm .btn {
   color: #ffffff;
-  padding: 26px;
+  border: none;
+  padding: 13px 16px;
+  border-radius: 5px;
   background-color: #469165;
+  font-size: 16px;
   font-weight: 600;
-  border-radius: 5%;
   width: 164px;
   text-align: center;
+  align-items: center;
 }
 
 header {
@@ -51,4 +59,88 @@ nav {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+}
+
+#banner {
+  width: auto;
+  height: 675px;
+  /* border: 5px solid red; */
+  border: 24px 0 0 0;
+  align-items: center;
+  background-image: url(./assets/hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#banner .banner-content {
+  text-align: center;
+  padding: 116px 120px 180px 120px;
+}
+
+#banner .banner-content .written-content {
+  display: inline-block;
+  padding: 6px 12px;
+  font-size: 12px;
+  background-color: #ffffff;
+  border-radius: 40px;
+  color: #276941;
+}
+
+#banner .banner-content .written-content::before {
+  content: "Ea";
+  width: 8px;
+  height: 8px;
+  border-radius: 500%;
+  background: #276941;
+  border-color: #276941;
+}
+
+#banner .banner-content .content-x {
+  color: white;
+  padding-top: 16px;
+  font-size: 80px;
+}
+
+#banner .banner-content .content-y {
+  color: #30b868;
+  padding-bottom: 8px;
+  font-size: 80px;
+}
+
+#banner .banner-content .content-z {
+  color: #ffffff;
+  padding-top: 8px;
+  padding-bottom: 25px;
+}
+
+#banner .banner-content .content-a {
+  gap: 30px;
+  display: inline;
+}
+
+#banner .banner-content .content-a .btn-1 {
+  color: #ffffff;
+  border: none;
+  padding: 13px 18px;
+  border-radius: 5px;
+  background-color: #469165;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  align-items: center;
+}
+
+#banner .banner-content .content-a .btn-2 {
+  color: #ffffff;
+  border: 1px solid white;
+  padding: 13px 18px;
+  border-radius: 5px;
+  background-color: #469165;
+  font-size: 16px;
+  font-weight: 600;
+
+  text-align: center;
+  align-items: center;
+  background-color: transparent;
 }
